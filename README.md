@@ -10,7 +10,7 @@ This project was made in Godot 3.4.4, but since it contains only a basic node an
 
 1. Generate an executable with the desired name and settings from this project in a new directory.
 2. Build the project you actually want to run, ensuring that it has a `res://shared/startup.tscn` as its startup scene. Avoid having a directory named `res://unpacked_godot_loader/`, as contents may conflict with this project.
-3. [Unpack](https://github.com/hhyyrylainen/GodotPckTool) the resulting Godot pack into the directory created for this loader.
+3. [Unpack](https://github.com/Bioruebe/godotdec) the resulting Godot pack into the directory created for this loader.
 4. Run.
 
 If all went well, this executable should load its own pack which immediately chains to your unpacked resources, allowing you to distribute and run games with all files accessible.
