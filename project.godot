@@ -11,12 +11,9 @@ config_version=4
 [application]
 
 config/name="unpacked_gadot_loader"
+run/main_scene="res://UNPACKED_GODOT_LOADER/UNPACKED_GODOT_LOADER.tscn"
 config/icon="res://icon.png"
 
 [physics]
 
 common/enable_pause_aware_picking=true
-
-[rendering]
-
-environment/default_environment="res://default_env.tres"
